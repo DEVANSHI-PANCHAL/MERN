@@ -1,0 +1,60 @@
+div {
+    height: 90vh;
+    overflow: hidden;
+    // width: auto;
+    background: linear-gradient(to bottom, rgba(108, 24, 85, 0.639), 
+    rgba(20, 17, 20, 0.685)),url('../../../assets/images/home2.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    line-height: 600px;
+}
+.blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+    color: #fff;
+    text-shadow: 2px 2px #0e0c0ca2;
+    
+}
+.blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+/*blockquote p::before {
+    content: "\f095"; 
+    font-family: FontAwesome;
+   display: inline-block;
+   padding-right: 6px;
+   vertical-align: middle;
+  font-size: 180px;
+ }*/
+
+.blockquote:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 50;
+  
+  content:"\f10d";
+  font-size: 200px;
+  color: #e2caddc0;
+  
+   
+}
+
+.blockquote::after {
+    content: "";
+    top: 250px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px solid #DE5BA7;
+    height: 3px;
+    width: 200px;
+}
